@@ -23,10 +23,9 @@
 ## SGD优化器相关程序以及参数:
 > * global_setting.py文件中的:
 	* MILESTONES = [60, 120, 160]  
-	
-		|epoch(lr = 0.1)|epoch(lr = 0.02)|epoch(lr = 0.004)|total epoch|  
-		|:---:|:---:|:---:|:---:|  
-		|60|60|40|40|  
+|epoch(lr = 0.1)|epoch(lr = 0.02)|epoch(lr = 0.004)|total epoch|  
+|:---:|:---:|:---:|:---:|  
+|60|60|40|40|  
 	* INIT_LR = 0.1  
 ## Adam:
 > 仅仅使用一行语句即可实现.  
