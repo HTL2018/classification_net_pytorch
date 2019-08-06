@@ -21,7 +21,7 @@
   
 # 3. 优化器的选用(SGD和Adam):  
 ## SGD优化器相关程序以及参数:
-> * global_setting.py文件中的:
+> * global_setting.py文件中的:  
 	* MILESTONES = [60, 120, 160]  注：这样设置之后：（总epoch为200）依次为：60个epoch(lr = 0.1)，60个epoch(lr = 0.02)，40个epoch(lr = 0.004)，40个epoch(lr = 0.0008)。  
 	* INIT_LR = 0.1  
 ## Adam:
