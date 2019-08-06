@@ -10,12 +10,12 @@
 >* 4. `lr_finder.py`只是测试一下学习率，没有实质用途.  
 > * 5. `models`文件夹中存放的是各种网络结构的定义文件,比如`googlenet.py`就是定义`Googlenet`的定义文件.  
 > * 6. `conf`文件夹中存放的是一些参数的配置文件:  
-	* `global_setting.py`是一些全局参数的设置信息  
-	* `__init__.py`文件没有用.  
+	*  `global_setting.py`是一些全局参数的设置信息  
+	*  `__init__.py`文件没有用.  
 > * 7. 其他还有一些文件夹会在程序运行过程中生成:  
-	* `runs`是为了使用`tensorboardX`对网络结构和一些重要的参数等进行可视化,生成的文件夹.  
-	* `checkpoint` 是用来保存训练过程中生成的网络模型.  
-	* `__pychache__ `其他文件.  
+	*  `runs`是为了使用`tensorboardX`对网络结构和一些重要的参数等进行可视化,生成的文件夹.  
+	*  `checkpoint` 是用来保存训练过程中生成的网络模型.  
+	*  `__pychache__ `其他文件.  
   
 `checkpoint`和`runs` 文件夹的保存路径可以进行设置,在`global_setting`文件中进行设置.
   
